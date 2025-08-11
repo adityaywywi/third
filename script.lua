@@ -51,10 +51,10 @@ ScriptTab:AddButton({
 })
 
 ScriptTab:AddButton({
-    Name = "99 Night In Forest",
+    Name = "Evade",
     Callback = function()
         if isKeyValid then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/ZyqRulNafVexMipT/99-night/main/night.lua"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/ZyqRulNafVexMipT/UNIVERSAL/main/evade.lua"))()
         else
             OrionLib:MakeNotification({
                 Name = "Error",
@@ -67,10 +67,250 @@ ScriptTab:AddButton({
 })
 
 ScriptTab:AddButton({
-    Name = "Run Script 3",
+    Name = "Big Brain",
     Callback = function()
         if isKeyValid then
-            loadstring(game:HttpGet("https://your-link-script3-here.com"))()
+             loadstring(game:HttpGet("https://raw.githubusercontent.com/ZyqRulNafVexMipT/UNIVERSAL/main/bigbrain.lua"))()
+        else
+            OrionLib:MakeNotification({
+                Name = "Error",
+                Content = "Please enter correct key first.",
+                Image = "rbxassetid://7733658504",
+                Time = 3
+            })
+        end
+    end
+})
+
+ScriptTab:AddButton({
+    Name = "Steal A Bluelock",
+    Callback = function()
+        if isKeyValid then
+             loadstring(game:HttpGet("https://raw.githubusercontent.com/ZyqRulNafVexMipT/UNIVERSAL/main/bluelock.lua"))()
+        else
+            OrionLib:MakeNotification({
+                Name = "Error",
+                Content = "Please enter correct key first.",
+                Image = "rbxassetid://7733658504",
+                Time = 3
+            })
+        end
+    end
+})
+
+ScriptTab:AddButton({
+    Name = "Dahood",
+    Callback = function()
+        if isKeyValid then
+             loadstring(game:HttpGet("https://raw.githubusercontent.com/ZyqRulNafVexMipT/UNIVERSAL/main/dahood.lua"))()
+        else
+            OrionLib:MakeNotification({
+                Name = "Error",
+                Content = "Please enter correct key first.",
+                Image = "rbxassetid://7733658504",
+                Time = 3
+            })
+        end
+    end
+})
+
+ScriptTab:AddButton({
+    Name = "Tha BRONX 3",
+    Callback = function()
+        if isKeyValid then
+             loadstring(game:HttpGet("https://raw.githubusercontent.com/ZyqRulNafVexMipT/UNIVERSAL/main/bronx3south.lua"))()
+        else
+            OrionLib:MakeNotification({
+                Name = "Error",
+                Content = "Please enter correct key first.",
+                Image = "rbxassetid://7733658504",
+                Time = 3
+            })
+        end
+    end
+})
+
+ScriptTab:AddButton({
+    Name = "Dead Rails",
+    Callback = function()
+        if isKeyValid then
+             loadstring(game:HttpGet("https://raw.githubusercontent.com/ZyqRulNafVexMipT/UNIVERSAL/main/deadrail.lua"))()
+        else
+            OrionLib:MakeNotification({
+                Name = "Error",
+                Content = "Please enter correct key first.",
+                Image = "rbxassetid://7733658504",
+                Time = 3
+            })
+        end
+    end
+})
+
+ScriptTab:AddButton({
+    Name = "Doors",
+    Callback = function()
+        if isKeyValid then
+             loadstring(game:HttpGet("https://raw.githubusercontent.com/ZyqRulNafVexMipT/UNIVERSAL/main/door.lua"))()
+        else
+            OrionLib:MakeNotification({
+                Name = "Error",
+                Content = "Please enter correct key first.",
+                Image = "rbxassetid://7733658504",
+                Time = 3
+            })
+        end
+    end
+})
+
+ScriptTab:AddButton({
+    Name = "1.000.000 Jump Rope",
+    Callback = function()
+        if isKeyValid then
+             loadstring(game:HttpGet("https://raw.githubusercontent.com/ZyqRulNafVexMipT/UNIVERSAL/main/jumprope.lua"))()
+        else
+            OrionLib:MakeNotification({
+                Name = "Error",
+                Content = "Please enter correct key first.",
+                Image = "rbxassetid://7733658504",
+                Time = 3
+            })
+        end
+    end
+})
+
+ScriptTab:AddButton({
+    Name = "Build A Plane",
+    Callback = function()
+        if isKeyValid then
+             loadstring(game:HttpGet("https://raw.githubusercontent.com/ZyqRulNafVexMipT/UNIVERSAL/main/plane.lua"))()
+        else
+            OrionLib:MakeNotification({
+                Name = "Error",
+                Content = "Please enter correct key first.",
+                Image = "rbxassetid://7733658504",
+                Time = 3
+            })
+        end
+    end
+})
+
+ScriptTab:AddButton({
+    Name = "Muscle Legends",
+    Callback = function()
+        if isKeyValid then
+             loadstring(game:HttpGet("https://raw.githubusercontent.com/ZyqRulNafVexMipT/UNIVERSAL/main/muscle.lua"))()
+        else
+            OrionLib:MakeNotification({
+                Name = "Error",
+                Content = "Please enter correct key first.",
+                Image = "rbxassetid://7733658504",
+                Time = 3
+            })
+        end
+    end
+})
+
+ScriptTab:AddButton({
+    Name = "Pets Go",
+    Callback = function()
+        if isKeyValid then
+             loadstring(game:HttpGet("https://raw.githubusercontent.com/ZyqRulNafVexMipT/UNIVERSAL/main/petsgo.lua"))()
+        else
+            OrionLib:MakeNotification({
+                Name = "Error",
+                Content = "Please enter correct key first.",
+                Image = "rbxassetid://7733658504",
+                Time = 3
+            })
+        end
+    end
+})
+
+ScriptTab:AddButton({
+    Name = "The Strongest Battleground",
+    Callback = function()
+        if isKeyValid then
+             loadstring(game:HttpGet("https://raw.githubusercontent.com/ZyqRulNafVexMipT/UNIVERSAL/main/thestrongest.lua"))()
+        else
+            OrionLib:MakeNotification({
+                Name = "Error",
+                Content = "Please enter correct key first.",
+                Image = "rbxassetid://7733658504",
+                Time = 3
+            })
+        end
+    end
+})
+
+ScriptTab:AddButton({
+    Name = "Tank Game Simulator",
+    Callback = function()
+        if isKeyValid then
+             loadstring(game:HttpGet("https://raw.githubusercontent.com/ZyqRulNafVexMipT/UNIVERSAL/main/tankgame.lua"))()
+        else
+            OrionLib:MakeNotification({
+                Name = "Error",
+                Content = "Please enter correct key first.",
+                Image = "rbxassetid://7733658504",
+                Time = 3
+            })
+        end
+    end
+})
+
+ScriptTab:AddButton({
+    Name = "egg farm",
+    Callback = function()
+        if isKeyValid then
+             loadstring(game:HttpGet("https://raw.githubusercontent.com/ZyqRulNafVexMipT/UNIVERSAL/main/eggfarm.lua"))()
+        else
+            OrionLib:MakeNotification({
+                Name = "Error",
+                Content = "Please enter correct key first.",
+                Image = "rbxassetid://7733658504",
+                Time = 3
+            })
+        end
+    end
+})
+
+ScriptTab:AddButton({
+    Name = "Big Brain",
+    Callback = function()
+        if isKeyValid then
+             loadstring(game:HttpGet("https://raw.githubusercontent.com/ZyqRulNafVexMipT/UNIVERSAL/main/bigbrain.lua"))()
+        else
+            OrionLib:MakeNotification({
+                Name = "Error",
+                Content = "Please enter correct key first.",
+                Image = "rbxassetid://7733658504",
+                Time = 3
+            })
+        end
+    end
+})
+
+ScriptTab:AddButton({
+    Name = "Gubby",
+    Callback = function()
+        if isKeyValid then
+             loadstring(game:HttpGet("https://raw.githubusercontent.com/ZyqRulNafVexMipT/UNIVERSAL/main/gubby.lua"))()
+        else
+            OrionLib:MakeNotification({
+                Name = "Error",
+                Content = "Please enter correct key first.",
+                Image = "rbxassetid://7733658504",
+                Time = 3
+            })
+        end
+    end
+})
+
+ScriptTab:AddButton({
+    Name = "Pizza Factory",
+    Callback = function()
+        if isKeyValid then
+             loadstring(game:HttpGet("https://raw.githubusercontent.com/ZyqRulNafVexMipT/UNIVERSAL/main/pizzafactory.lua"))()
         else
             OrionLib:MakeNotification({
                 Name = "Error",
