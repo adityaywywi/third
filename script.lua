@@ -35,10 +35,10 @@ KeyTab:AddTextbox({
 local ScriptTab = Window:MakeTab({Name = "Script Selector", Icon = "rbxassetid://6026568217", PremiumOnly = false})
 
 ScriptTab:AddButton({
-    Name = "Run Script 1",
+    Name = "Grow A Garden",
     Callback = function()
         if isKeyValid then
-            loadstring(game:HttpGet("https://your-link-script1-here.com"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/ZyqRulNafVexMipT/UNIVERSAL/main/grow.lua"))()
         else
             OrionLib:MakeNotification({
                 Name = "Error",
